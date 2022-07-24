@@ -3,7 +3,7 @@ import { Router, useRouter } from 'next/router'
 import styles from '../../styles/Game.module.css'
 import { FiShare2, FiHeart } from 'react-icons/fi';
 import HorizontalListView from '../../components/ListView/HorizontalListView';
-import { StateContext } from '../StateContext';
+import { StateContext } from '../../context/StateContext';
 import useIPFS from "../../services/ipfs";
 import Tags from '../../public/data/tags.json'
 

@@ -4,7 +4,7 @@ import styles from "../../styles/Home.module.css";
 import React from "react";
 import Web3 from "web3";
 import ContractABI from "../../build/contracts/Web3GamesSpace.json";
-import { StateContext } from "../../pages/StateContext";
+import { StateContext } from "../../context/StateContext";
 
 const Main = ({ children }) => {
   const [state, setState] = React.useState({

@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import HorizontalListView from "../components/ListView/HorizontalListView";
 import HorizontalGridView from "../components/ListView/HorizontalGridView";
 import Header from "../components/Header";
-import { StateContext } from "./StateContext";
+import { StateContext } from "../context/StateContext";
 import { useRouter } from "next/router";
 import Tags from "../public/data/tags.json"
 import { getLatestGames } from "../services/covalent";

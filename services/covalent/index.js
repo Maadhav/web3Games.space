@@ -1,5 +1,5 @@
 import React from "react";
-import { StateContext } from "../../pages/StateContext";
+import { StateContext } from "../../context/StateContext";
 
 const COVALENT_API_KEY = "ckey_bd05b31f2ce64d8eb4eac37b376";
 const CONTRACT_ADDRESS = "0x032FD6B1f03a4522e91E8daAC93121B1d22A7468";

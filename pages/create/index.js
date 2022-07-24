@@ -4,7 +4,7 @@ import { FiMinusCircle } from "react-icons/fi";
 import { Form } from "react-bootstrap";
 import useIPFS from "../../services/ipfs";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { StateContext } from "../StateContext";
+import { StateContext } from "../../context/StateContext";
 import { useRouter } from "next/router";
 import Tags from "../../public/data/tags.json";
 import { getLatestGames } from "../../services/covalent";

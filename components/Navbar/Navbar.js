@@ -5,7 +5,7 @@ import { FiPlusCircle } from 'react-icons/fi';
 import Link from 'next/link';
 import Web3 from 'web3';
 import Web3Modal from "web3modal";
-import { StateContext } from '../../pages/StateContext';
+import { StateContext } from '../../context/StateContext';
 import ContractABI from '../../build/contracts/Web3GamesSpace.json'
 import { providerOptions } from "../../services/providerOptions";
 
