@@ -6,12 +6,14 @@ import HorizontalListView from "../../components/ListView/HorizontalListView";
 import { StateContext } from "../../context/StateContext";
 import useIPFS from "../../services/ipfs";
 import Tags from "../../public/data/tags.json";
+import { getLatestGames } from "../../services/covalent";
 
 const Game = () => {
   const id = useRouter().query.game;
   const { get } = useIPFS();
   const ref = React.useRef();
   const [state, setState] = React.useState(null);
+  const [recommended, setRecommended] = React.useState([]);
   const [globalState] = React.useContext(StateContext);
   const loadingRef = React.useRef();
 
@@ -37,6 +39,31 @@ const Game = () => {
         });
     }
   };
+
+  React.useEffect(() => {
+    // getFileUpload();
+    if (globalState.web3)
+      getLatestGames(globalState.web3).then((res) => {
+        var _games = [];
+        for (const key in res) {
+          const element = res[key];
+          console.log(element);
+          const game = {
+            cid: element.cid,
+            thumbnail: element.thumbnail,
+            preview: element.preview,
+            title: element.title,
+            description: element.description,
+            tags: element.tags,
+            creator: element.creator,
+            id: element.id,
+            timestamp: element.timestamp,
+          };
+          _games.push(game);
+        }
+        setRecommended(_games.slice(0, 10));
+      });
+  }, [globalState.web3]);
 
   function convertMonth(month) {
     switch (month) {
@@ -175,7 +202,7 @@ const Game = () => {
           })}
         </div>
         <h3>Recommended Games</h3>
-        <HorizontalListView list={[1, 2, 3, 4]} />
+        <HorizontalListView list={recommended} />
       </div>
     </div>
   );
