@@ -114,7 +114,7 @@ const Game = () => {
                     <div className={styles['game-tile']}>
                         <h1 className={styles['game-title']}>{state.title}</h1>
                         <div className={styles['game-tags']}>
-                            <a className={styles['game-tag']}>{state.tags.length > 1 ? Tags.find((e) => e.id.toString() === state.tags[0]).name : ""}</a>
+                            <a className={styles['game-tag']}>{state.tags.xlength > 1 ? Tags.find((e) => e.id.toString() === state.tags[0]).name : ""}</a>
                             {
                                 state.tags.map((tag, index) => {
                                     if (index > 0)

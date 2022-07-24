@@ -1,46 +1,58 @@
 [
-    {
-        "id": 1,
-        "name": "Arcade"
-    },
-    {
-        "id": 2,
-        "name": "Puzzle"
-    },
-    {
-        "id": 3,
-        "name": "Action"
-    },
-    {
-        "id": 4,
-        "name": "Racing"
-    },
-    {
-        "id": 5,
-        "name": "Adventure"
-    },
-    {
-        "id": 6,
-        "name": "Strategy"
-    },
-    {
-        "id": 7,
-        "name": "Simulation"
-    },
-    {
-        "id":8,
-        "name":"Sports"
-    },
-    {
-        "id":9,
-        "name":"Ethereum"
-    },
-    {
-        "id":10,
-        "name":"Polygon"
-    },
-    {
-        "id":12,
-        "name": "2D"
-    }
+  {
+    "id": 0,
+    "name": "Arcade"
+  },
+  {
+    "id": 1,
+    "name": "Arcade"
+  },
+  {
+    "id": 2,
+    "name": "Puzzle"
+  },
+  {
+    "id": 3,
+    "name": "Action"
+  },
+  {
+    "id": 4,
+    "name": "Racing"
+  },
+  {
+    "id": 5,
+    "name": "Adventure"
+  },
+  {
+    "id": 6,
+    "name": "Strategy"
+  },
+  {
+    "id": 7,
+    "name": "Simulation"
+  },
+  {
+    "id": 8,
+    "name": "Sports"
+  },
+  {
+    "id": 9,
+    "name": "Ethereum"
+  },
+  {
+    "id": 10,
+    "name": "Polygon"
+  },
+  {
+    "id": 11,
+    "name": "Polygon"
+  },
+  {
+    "id": 12,
+    "name": "2D"
+  },
+  {
+    "id": 13,
+    "name": "Polygon"
+  }
 ]
