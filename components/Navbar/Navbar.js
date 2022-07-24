@@ -150,6 +150,7 @@ const Navbar = () => {
           "https://code.hyperdapp.dev/flow/QmRapDGao7jojcinpnndbE5mZXrp9Vp9mKv8bVKQhyKkDy"
         }
         target={"_blank"}
+        rel="noopener noreferrer"
         style={{
           backgroundColor: "#fff",
           padding: "10px",
