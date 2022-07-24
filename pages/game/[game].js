@@ -6,7 +6,6 @@ import HorizontalListView from '../../components/ListView/HorizontalListView';
 import { StateContext } from '../StateContext';
 import useIPFS from "../../services/ipfs";
 import Tags from '../../public/data/tags.json'
-import BigNumber from 'big-number/big-number';
 
 const Game = () => {
     const id = useRouter().query.game
