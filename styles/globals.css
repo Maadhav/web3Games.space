@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2a1253;
+  color: #decaff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --bg: #454954;
+  --fg: #e3e4e8;
+  --fg-t: rgba(227, 228, 232, 0.5);
+
+  --primary1: #2a1253;
+  --primary2: #3c1e6e;
+  --trans-dur: 0.3s;
+  font-size: calc(16px + (20 - 16) * (100vw - 320px) / (1280 - 320));
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Fredoka One", cursive;
+}
+
+h3,h2,h4,h5 {
+  /* color: white; */
+  font-size: medium !important;
+}

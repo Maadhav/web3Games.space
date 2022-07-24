@@ -1,0 +1,76 @@
+.create-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.create-input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #3c1e6e;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.create-input::placeholder {
+  color: #decaff;
+}
+
+.create-button {
+  height: 40px;
+  width: 250px;
+  color: #decaff;
+  border: 3px solid #decaff;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+}
+
+.tags-grid {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: calc(100% - 139px);
+  margin: 16px 0px;
+}
+
+.tag-tile {
+  border-radius: 15px;
+  color: #decaff;
+  padding: 3px 5px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  background-color: #6837b9;
+  gap: 0 5px;
+}
+
+.tag-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #decaff;
+  object-fit: fill;
+}
+
+.create-file-input {
+  background-color: transparent !important;
+  outline: none !important;
+  color: white !important;
+}

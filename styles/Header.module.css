@@ -1,0 +1,21 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    gap: 16px;
+}
+
+.header-title {
+    font-size: 0.875rem;
+    color: white;
+}
+
+.header-action {
+    font-size: 11.4px;
+    color: #35FDFF;
+    cursor: pointer;
+}
+
+.header-action:hover {
+    filter: contrast(0.5);
+}
