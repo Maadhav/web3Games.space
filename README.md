@@ -31,7 +31,8 @@ Youtube Video Demo
 
 **Client:** Next.JS, web3.js, web3modal, bootstrap
 
-**Server:** Truffle, IPFS, Covalant API, Valis Hosting, HyperDapp Integration## Roadmap
+**Server:** Truffle, IPFS, Covalant API, Valis Hosting, HyperDapp Integration
+## Roadmap
 
 - [x]  Allow WebGL Games
 - [x]  IPFS storage & Hosting
